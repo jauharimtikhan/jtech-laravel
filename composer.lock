@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3acd75e7d96ee1d67c30306dcc97b358",
+    "content-hash": "79b792ce5a182d2a958d0355991be6f6",
     "packages": [
         {
             "name": "brick/math",
@@ -1055,16 +1055,16 @@
         },
         {
             "name": "jtech/core-shield",
-            "version": "v2.2",
+            "version": "v2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jauharimtikhan/jtech-core-shield.git",
-                "reference": "9300b5829018d9f74dc80567b89483947d7d0937"
+                "reference": "e97d09eabf047f56e37af702f76b2911e41dab50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jauharimtikhan/jtech-core-shield/zipball/9300b5829018d9f74dc80567b89483947d7d0937",
-                "reference": "9300b5829018d9f74dc80567b89483947d7d0937",
+                "url": "https://api.github.com/repos/jauharimtikhan/jtech-core-shield/zipball/e97d09eabf047f56e37af702f76b2911e41dab50",
+                "reference": "e97d09eabf047f56e37af702f76b2911e41dab50",
                 "shasum": ""
             },
             "require": {
@@ -1088,9 +1088,9 @@
             "description": "J-Tech Core Protection System",
             "support": {
                 "issues": "https://github.com/jauharimtikhan/jtech-core-shield/issues",
-                "source": "https://github.com/jauharimtikhan/jtech-core-shield/tree/v2.2"
+                "source": "https://github.com/jauharimtikhan/jtech-core-shield/tree/v2.3"
             },
-            "time": "2026-04-10T14:57:15+00:00"
+            "time": "2026-04-10T15:57:24+00:00"
         },
         {
             "name": "laravel/framework",
