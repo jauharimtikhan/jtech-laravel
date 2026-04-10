@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c57754c93ae34ac3b9b716a0fd2f2149",
+    "content-hash": "9777e30038bc208f4848aafca48fbdf3",
     "packages": [
         {
             "name": "brick/math",
@@ -1052,6 +1052,45 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
+        },
+        {
+            "name": "jtech/core-shield",
+            "version": "v1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jauharimtikhan/jtech-core-shield.git",
+                "reference": "ca0ea8bbbce3e038eb776b0810216c70c95da7ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jauharimtikhan/jtech-core-shield/zipball/ca0ea8bbbce3e038eb776b0810216c70c95da7ce",
+                "reference": "ca0ea8bbbce3e038eb776b0810216c70c95da7ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": [],
+                    "providers": [
+                        "Jtech\\CoreShield\\Providers\\CoreShieldProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jtech\\CoreShield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "J-Tech Core Protection System",
+            "support": {
+                "issues": "https://github.com/jauharimtikhan/jtech-core-shield/issues",
+                "source": "https://github.com/jauharimtikhan/jtech-core-shield/tree/v1.5"
+            },
+            "time": "2026-04-10T11:26:19+00:00"
         },
         {
             "name": "laravel/framework",

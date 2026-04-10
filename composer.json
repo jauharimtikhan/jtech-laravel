@@ -2,14 +2,20 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jtech/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A Wrapper laravel project By Jtech Forge",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "email": "bangjoe.muns@gmail.com",
+            "name": "Jauhar Imtikhan"
+        }
+    ],
     "require": {
         "php": "^8.3",
+        "jtech/core-shield": "^1.4",
         "laravel/framework": "^13.0",
-        "laravel/tinker": "^3.0",
-        "jtech/core-shield": "^1.0"
+        "laravel/tinker": "^3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -82,11 +88,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/jauharimtikhan/jtech-core-shield.git"
-    }
-]
+    "prefer-stable": true
 }
