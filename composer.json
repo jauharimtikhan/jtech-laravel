@@ -5,15 +5,13 @@
     "description": "A Wrapper laravel project By Jtech Forge",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
-    "authors": [
-        {
-            "email": "bangjoe.muns@gmail.com",
-            "name": "Jauhar Imtikhan"
-        }
-    ],
+    "authors": [{
+        "email": "bangjoe.muns@gmail.com",
+        "name": "Jauhar Imtikhan"
+    }],
     "require": {
         "php": "^8.3",
-        "jtech/core-shield": "^2.0",
+        "jtech/core-shield": "^2.2",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0"
     },
@@ -56,6 +54,7 @@
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan app:update",
             "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
