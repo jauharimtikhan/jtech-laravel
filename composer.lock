@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "472a26a1d39016de8360fc8258e863c9",
+    "content-hash": "d6ea1cd941014fead4dcbd1796862505",
     "packages": [
         {
             "name": "brick/math",
@@ -1055,16 +1055,16 @@
         },
         {
             "name": "jtech/core-shield",
-            "version": "v2.5",
+            "version": "v2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jauharimtikhan/jtech-core-shield.git",
-                "reference": "50b7ffe618f201efa13944a8897c6972c692fc2c"
+                "reference": "5f27b6b2167c6a4db95f1a118626f69ce803a59d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jauharimtikhan/jtech-core-shield/zipball/50b7ffe618f201efa13944a8897c6972c692fc2c",
-                "reference": "50b7ffe618f201efa13944a8897c6972c692fc2c",
+                "url": "https://api.github.com/repos/jauharimtikhan/jtech-core-shield/zipball/5f27b6b2167c6a4db95f1a118626f69ce803a59d",
+                "reference": "5f27b6b2167c6a4db95f1a118626f69ce803a59d",
                 "shasum": ""
             },
             "require": {
@@ -1088,9 +1088,9 @@
             "description": "J-Tech Core Protection System",
             "support": {
                 "issues": "https://github.com/jauharimtikhan/jtech-core-shield/issues",
-                "source": "https://github.com/jauharimtikhan/jtech-core-shield/tree/v2.5"
+                "source": "https://github.com/jauharimtikhan/jtech-core-shield/tree/v2.6"
             },
-            "time": "2026-04-17T00:33:45+00:00"
+            "time": "2026-04-20T03:11:08+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7091,16 +7091,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.5.21",
+            "version": "12.5.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1b7bd4788966bf1533901808657850b6c7876ec7"
+                "reference": "c54fcf3d6bcb6e96ac2f7e40097dc37b5f139969"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1b7bd4788966bf1533901808657850b6c7876ec7",
-                "reference": "1b7bd4788966bf1533901808657850b6c7876ec7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c54fcf3d6bcb6e96ac2f7e40097dc37b5f139969",
+                "reference": "c54fcf3d6bcb6e96ac2f7e40097dc37b5f139969",
                 "shasum": ""
             },
             "require": {
@@ -7169,7 +7169,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.21"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.23"
             },
             "funding": [
                 {
@@ -7177,7 +7177,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-16T04:56:04+00:00"
+            "time": "2026-04-18T06:12:49+00:00"
         },
         {
             "name": "sebastian/cli-parser",
